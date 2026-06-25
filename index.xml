@@ -1,41 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>blog.elzapp.com</title>
-    <link>https://blog.elzapp.com/</link>
-    <description>Recent content on blog.elzapp.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://blog.elzapp.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Playlist December 20. 2024</title>
-      <link>https://blog.elzapp.com/playlists/20241220/</link>
-      <pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate>
-      
-      <guid>https://blog.elzapp.com/playlists/20241220/</guid>
-      <description>Mostly Drum&amp;amp;Bass and related genres this week.
-Spotify: 20.12.24 Youtube Music: 20122024 Most, but not all, of the tracks are available on Beatport
-New tracks REEBZ/B-Complex - Desolation A special mention to Desolation from REEBZ and B-Complex&amp;rsquo; new single &amp;ldquo;Desolation/ATRC&amp;rdquo; released December 19th.
-Spotify: Desolation/ATRC Youtube Music: Desolation/ATRC The list Mista Trick / Spencer Ramsay - Taking a Bath (Splish Splash) Babyspoon / Melo Nada - Bambam DNMO / Wolfy Lights - Bombalaya Fats / Milson - Dancing with the devil Spencer Ramsay - Beat Goes On - DnB Flip Bru-C / MC Spyda / General Levy / Eksman - Ten Toes (feat.</description>
-    </item>
-    
-    <item>
-      <title>Stop grepping ps output for processes</title>
-      <link>https://blog.elzapp.com/posts/pgrep/</link>
-      <pubDate>Mon, 25 Sep 2023 12:38:19 +0200</pubDate>
-      
-      <guid>https://blog.elzapp.com/posts/pgrep/</guid>
-      <description>if you&amp;rsquo;re piping ps aux output to grep to find a process, grep -fla is probably what you really need</description>
-    </item>
-    
-    <item>
-      <title>Testpost</title>
-      <link>https://blog.elzapp.com/posts/testpost/</link>
-      <pubDate>Thu, 06 Aug 2020 21:18:37 +0200</pubDate>
-      
-      <guid>https://blog.elzapp.com/posts/testpost/</guid>
-      <description>Every codeblog needs a testpost</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blog.elzapp.com</title><link>https://blog.elzapp.com/</link><description>Recent content on blog.elzapp.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Dec 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://blog.elzapp.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Playlist December 20. 2024</title><link>https://blog.elzapp.com/playlists/20241220/</link><pubDate>Wed, 18 Dec 2024 12:00:00 +0000</pubDate><guid>https://blog.elzapp.com/playlists/20241220/</guid><description>&lt;p&gt;Mostly Drum&amp;amp;Bass and related genres this week.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://open.spotify.com/playlist/6vUAvcUKSedOxzJcTkax4c?si=33b3341389d745e4"&gt;Spotify: 20.12.24&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://music.youtube.com/playlist?list=PL_tSIiIjHTGWCBzX9Hu2xr09r_BgWZY4S&amp;amp;si=aUtWq2OUKo3KvCu2"&gt;Youtube Music: 20122024&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;style&gt;
+.ytMusic {
+ aspect-ratio: 1;border-radius: 50%;
+ box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+.ytMusic.spin {
+
+ -webkit-animation:spin 4s linear infinite;
+ -moz-animation:spin 4s linear infinite;
+ animation:spin 4s linear infinite;
+}
+.ytMusic:hover {
+ border-radius: 0.5em;
+ animation: none;
+}
+@-moz-keyframes spin { 
+ 100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+ 100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+ 100% { 
+ -webkit-transform: rotate(360deg); 
+ transform:rotate(360deg); 
+ } 
+}
+&lt;/style&gt;
+
+&lt;iframe width="100%" class="ytMusic"
+src="https://www.youtube.com/embed/playlist?list=PL_tSIiIjHTGWCBzX9Hu2xr09r_BgWZY4S" frameborder="0"
+allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;script&gt;
+ document.addEventListener("DOMContentLoaded",function(){
+ document.querySelectorAll(".ytMusic").forEach(function(value,key,parent){
+ value.addEventListener("mouseout",function(e){
+ this.classList.add("spin")
+ })
+ })
+})
+&lt;/script&gt;
+&lt;iframe 
+style="border-radius:12px" 
+src="https://open.spotify.com/embed/playlist/6vUAvcUKSedOxzJcTkax4c?si=538a3bdc6eba4598" 
+width="100%" 
+height="400" 
+frameBorder="0" 
+allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"&gt;&lt;/iframe&gt;
+Most, but not all, of the tracks are &lt;a href="https://www.beatport.com/playlists/share/4420659"&gt;available on Beatport&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Stop grepping ps output for processes</title><link>https://blog.elzapp.com/posts/pgrep/</link><pubDate>Mon, 25 Sep 2023 12:38:19 +0200</pubDate><guid>https://blog.elzapp.com/posts/pgrep/</guid><description>if you&amp;rsquo;re piping ps aux output to grep to find a process, grep -fla is probably what you really need</description></item><item><title>Testpost</title><link>https://blog.elzapp.com/posts/testpost/</link><pubDate>Thu, 06 Aug 2020 21:18:37 +0200</pubDate><guid>https://blog.elzapp.com/posts/testpost/</guid><description>Every codeblog needs a testpost</description></item></channel></rss>
