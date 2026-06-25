@@ -1,1 +1,6 @@
 public
+**/.DS_Store
+.hugo_build.lock
+# Hugo is managed by mise (see mise.toml); don't commit the binary.
+hugo
+*.mkv

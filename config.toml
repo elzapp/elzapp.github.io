@@ -1,15 +1,16 @@
 baseURL = "https://blog.elzapp.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "blog.elzapp.com"
 theme = "ananke"
-
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
 
 [sitemap]
   changefreq = "monthly"
