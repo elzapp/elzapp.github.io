@@ -4,6 +4,11 @@ date: 2020-08-07T20:23:37+02:00
 draft: true
 tags:
   - "Go"
+  - "Docker"
+  - "Security"
+  - "Green computing"
+  - "Kubernetes"
+  - "Cloud"
 summary: Speed up your deploys and reduce your attack surface by running your Go code in Docker with the absolute minimum of overhead
 ---
 Speed up your deploys and reduce your attack surface by running your Go code in Docker with the absolute minimum of overhead.
